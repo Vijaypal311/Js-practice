@@ -27,3 +27,37 @@ let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
+
+// -------------operations--------------------
+
+// arithmatic operations
+
+// "+"
+// "-"
+// "*"
+// "**"
+// "%"
+// "/"
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);  // if string is first then this returns 122 value as string
+// console.log(1 + 2 + "2"); // if string is in last than first two values will apply conversion and then returns 322 values as string(this is adds first 2 values) 
+
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+
+
+
+
