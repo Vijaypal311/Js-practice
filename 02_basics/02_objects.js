@@ -1,5 +1,22 @@
+// What is a JavaScript Object?
+// A JavaScript object is a collection of key-value pairs.
+// Keys are strings or symbols, while values can be any data type (numbers, strings, booleans, other objects, functions, etc.).
+// Objects are used to represent real-world entities or data structures.
+
+
+
 // singleton objects are created using new keyword.
-// Object.create
+// Constructor Function
+
+function Person(firstName, lastName, age, city) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.city = city;
+  }
+  
+  let person = new Person("Jane", "Smith", 25, "Los Angeles");
+  
 
 // object literals
 
@@ -30,6 +47,10 @@ JsUser.email = "vijay@microsoft.com"
 JsUser.greeting = function(){
     console.log("Hello JS user");
 }
+
+// What is this keyword in an object?
+// this refers to the current object within a method.
+// It can be used to access properties and methods of the object.
 JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
