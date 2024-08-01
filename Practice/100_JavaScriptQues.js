@@ -163,3 +163,31 @@ console.log(lowercaseString("VIJAY"));*/
 /*for(let i = 1 ; i <= 10 ; i++){
     console.log(i);
 }*/
+
+// 12 . Write a loop to calculate the factorial of a number.
+
+/*let num = 5;
+
+let fact = 1;
+
+for (let i = 1; i <= num; i++) {
+
+    fact = fact * i;
+}
+
+console.log(fact);*/
+
+// 13 . Write a function to merge two objects.
+
+function mergeObjects(obj1, obj2) {
+    return Object.assign({}, obj1, obj2);
+}
+
+// Example usage
+const object1 = { a: 1, b: 2 };
+const object2 = { b: 3, c: 4 };
+const mergedObject = mergeObjects(object1, object2);
+console.log(mergedObject);
+
+// 14 . 
+
