@@ -96,5 +96,3 @@ const fruits = ["apple", "banana", "orange"];
 
 // copyArray[0] = 10; // Modify the copy
 // console.log(originalArray); // Output: [1, 2, 3, 4, 5] (original array remains unchanged)
-
-
