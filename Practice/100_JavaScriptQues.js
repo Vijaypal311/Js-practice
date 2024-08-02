@@ -179,7 +179,7 @@ console.log(fact);*/
 
 // 13 . Write a function to merge two objects.
 
-function mergeObjects(obj1, obj2) {
+/*function mergeObjects(obj1, obj2) {
     return Object.assign({}, obj1, obj2);
 }
 
@@ -187,7 +187,98 @@ function mergeObjects(obj1, obj2) {
 const object1 = { a: 1, b: 2 };
 const object2 = { b: 3, c: 4 };
 const mergedObject = mergeObjects(object1, object2);
-console.log(mergedObject);
+console.log(mergedObject);*/
 
-// 14 . 
+// 14 . Write a function to count the number of elements in an array greater than a specified value.
+
+/*function greaterElements(arr, value) {
+
+    let count = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+
+        if (arr[i] > value) {
+            count++;
+        }
+    }
+    return count;
+}
+
+const myArray = [5, 7, 8, 1, 4];
+const specifiedValue = 1;
+const result = greaterElements(myArray, specifiedValue);
+console.log(result);*/
+
+// 15 . Write a function to add an element to the beginning of an array.
+
+/*let arr = [5, 7, 8, 1, 4]
+
+let result = arr.unshift(10);
+
+console.log(arr);*/
+
+
+/*function addElement(arr , value){
+
+    return arr.unshift(value);
+}
+
+let arr = [5, 7, 8, 1, 4];
+
+let result = addElement(arr , 9)
+
+console.log(arr);*/
+
+// 16 . Write a function to count the number of vowels in a string.
+
+/*function vowelsInstring(str){
+
+    let vowels = "aeiouAEIOU";
+
+    let count = 0;
+
+    for(let char of str){
+
+        if(vowels.includes(char)){
+            count++
+        }
+    }
+    return count;
+}
+
+let char1 =  "vijay";
+
+console.log(vowelsInstring(char1));*/
+
+// 17 . Write a loop to sum the numbers from 1 to `n`.
+
+/*let num = 10
+
+let sum = 0;
+
+for (let i = 0; i <= num; i++) {
+
+    sum = sum + i;
+
+}
+console.log(sum);*/
+
+// 18 . Write a function to check if an object contains a specific property.
+
+/*function hasProperty(obj, prop) {
+
+    return prop in obj;
+}
+
+let object2 = {
+    name: "Vijay",
+    rollno: 17
+}
+
+let result = hasProperty(object2, "same");
+
+console.log(result);*/
+
+
+
 
