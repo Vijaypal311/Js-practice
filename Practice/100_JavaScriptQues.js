@@ -279,6 +279,108 @@ let result = hasProperty(object2, "same");
 
 console.log(result);*/
 
+// 19 . Write a function to merge two sorted arrays into a single sorted array.
+
+/*function mergeTwoSortedArray (arr1 , arr2){
+
+    let merged = [...arr1,...arr2];
+
+    return merged.sort((a,b) => a - b);
+}
+
+let array1 = [4,7,5,1,2]
+let array2 = [8,6,2,1,4]
+
+let result = mergeTwoSortedArray(array1 , array2);
+
+console.log(result);*/
+
+// 20 . Write a function to remove the last element of an array and return it.
+
+/*function removeLastArray(arr){
+
+    return arr.pop();
+}
+
+const removeLastArray = ((arr) => arr.pop());
+
+let arr1 = [1,2,3,4,5,6];
+
+removeLastArray(arr1);
+
+console.log(arr1);*/
+
+// 21 . Write a function to replace all instances of a substring in a string.
+
+/*function replaceAString(str, search, replacedStr) {
+
+     return str.split(search).join(replacedStr);
+
+}
+
+let strr = "Hello World";
+
+let searchThis = "World";
+
+let replaceWith = "Vijay";
+
+let result = replaceAString(strr, searchThis, replaceWith);
+
+console.log(result);*/
+
+/*const replaceAString = ((str, search, replacedStr) => str.split(search).join(replacedStr))
+
+let strr = "Hello World";
+
+let searchThis = "World";
+
+let replaceWith = "Vijay";
+
+let result = replaceAString(strr, searchThis, replaceWith);
+
+console.log(result);*/
+
+// 22 . Write a loop to print the first `n` prime numbers.
+
+/*let num = 20
+
+for (let i = 1; i <= num; i++) {
+
+    if (i % 2 == 1) {
+
+        console.log(i);
+    }
+}*/
+
+// 23 . Write a function to get the keys of an object as an array.
+
+/*const returnKeysAsArray = ((obj) => Object.keys(obj));
+
+let obj1 = {
+    name : "Vijay",
+    rollno: 21,
+    div: "A"
+}
+
+let result = returnKeysAsArray(obj1);
+
+console.log(result);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
